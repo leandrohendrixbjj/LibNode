@@ -1,0 +1,28 @@
+{
+  "name": "markup",
+  "version": "1.0.0",
+  "description": "libNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node index.js ./src/files/texto.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrolannister/libNode.git"
+  },
+  "keywords": [],
+  "author": "hendrix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrolannister/libNode/issues"
+  },
+  "homepage": "https://github.com/leandrolannister/libNode#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
